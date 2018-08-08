@@ -1,0 +1,240 @@
+{
+"version":"0.4.3",
+"camera":{
+
+},
+"samplers":{
+
+},
+"textures":{
+
+},
+"shaders":{
+  "solid":{
+    "vs":"solid.vs",
+    "fs":"solid.fs"
+  }
+},
+"materials":{
+  "mat0":{
+    "values":{
+      "diffuse":[1.000, 1.000, 1.000],
+      "transparent":1.000
+    }
+  },
+  "mat3":{
+    "values":{
+      "diffuse":[0.792, 0.933, 0.776],
+      "transparent":1.000
+    }
+  },
+  "mat4":{
+    "values":{
+      "diffuse":[0.608, 0.776, 0.588],
+      "transparent":1.000
+    }
+  },
+  "mat6":{
+    "values":{
+      "diffuse":[1.000, 1.000, 1.000],
+      "transparent":1.000
+    }
+  },
+  "mat8":{
+    "values":{
+      "diffuse":[0.376, 0.376, 0.376],
+      "transparent":1.000
+    }
+  },
+  "mat9":{
+    "values":{
+      "diffuse":[0.506, 0.639, 0.486],
+      "transparent":1.000
+    }
+  },
+  "mat10":{
+    "values":{
+      "diffuse":[0.529, 0.443, 0.333],
+      "transparent":1.000
+    }
+  },
+  "mat11":{
+    "values":{
+      "diffuse":[0.412, 0.620, 0.439],
+      "transparent":1.000
+    }
+  }
+},
+"attributes":{
+  "vf20":{
+    "primitive":"triangle",
+    "values":[
+      "POSITION",
+      "NORMAL"
+    ]
+  }
+},
+"buffers":[
+  {
+    "byteLength":3897198,
+    "uri":"mesh0.bin"
+  }
+],
+"meshes":{
+  "mesh0.bin":{
+    "m0":{
+      "vertices":{
+        "byteLength":14400,
+        "byteOffset":0
+      },
+      "indices":{
+        "byteLength":1800,
+        "byteOffset":3125136
+      },
+      "attribute":"vf20"
+    },
+    "m1":{
+      "vertices":{
+        "byteLength":532464,
+        "byteOffset":14400
+      },
+      "indices":{
+        "byteLength":197010,
+        "byteOffset":3126936
+      },
+      "attribute":"vf20"
+    },
+    "m2":{
+      "vertices":{
+        "byteLength":292944,
+        "byteOffset":546864
+      },
+      "indices":{
+        "byteLength":92250,
+        "byteOffset":3323946
+      },
+      "attribute":"vf20"
+    },
+    "m3":{
+      "vertices":{
+        "byteLength":713040,
+        "byteOffset":839808
+      },
+      "indices":{
+        "byteLength":116304,
+        "byteOffset":3416196
+      },
+      "attribute":"vf20"
+    },
+    "m4":{
+      "vertices":{
+        "byteLength":69024,
+        "byteOffset":1552848
+      },
+      "indices":{
+        "byteLength":8202,
+        "byteOffset":3532500
+      },
+      "attribute":"vf20"
+    },
+    "m5":{
+      "vertices":{
+        "byteLength":716496,
+        "byteOffset":1621872
+      },
+      "indices":{
+        "byteLength":163944,
+        "byteOffset":3540702
+      },
+      "attribute":"vf20"
+    },
+    "m6":{
+      "vertices":{
+        "byteLength":364800,
+        "byteOffset":2338368
+      },
+      "indices":{
+        "byteLength":96000,
+        "byteOffset":3704646
+      },
+      "attribute":"vf20"
+    },
+    "m7":{
+      "vertices":{
+        "byteLength":421968,
+        "byteOffset":2703168
+      },
+      "indices":{
+        "byteLength":96552,
+        "byteOffset":3800646
+      },
+      "attribute":"vf20"
+    }
+  }
+},
+"layers":{
+  "Default":{
+    "visible":true,
+    "color":[0.000, 0.000, 0.000],
+    "nodes":[
+              "n0",
+              "n1",
+              "n2",
+              "n3",
+              "n4",
+              "n5",
+              "n6",
+              "n7"    ]
+  }
+},
+"scene":{
+  "min":[-371.84061,-276.08694,-64.78059],
+  "max":[371.84064,276.08694,64.78069],
+  "doubleSided":true,
+  "nodes":{
+    "n0":{
+        "bbox":[20.28267,-74.40711,-35.54226,49.31820,-49.30822,-32.26552],
+        "material":"mat0",
+        "mesh":"m0" 
+    },
+    "n1":{
+        "bbox":[-371.84061,-271.23196,-53.67905,310.31818,276.08694,56.26415],
+        "material":"mat3",
+        "mesh":"m1" 
+    },
+    "n2":{
+        "bbox":[-361.69165,-247.04909,-29.64741,-127.40278,-57.14403,52.20985],
+        "material":"mat4",
+        "mesh":"m2" 
+    },
+    "n3":{
+        "bbox":[-362.03281,-276.08694,-64.78059,371.84064,270.46500,55.93494],
+        "material":"mat6",
+        "mesh":"m3" 
+    },
+    "n4":{
+        "bbox":[-357.99298,-271.35233,-64.78059,370.08118,241.79288,35.37965],
+        "material":"mat8",
+        "mesh":"m4" 
+    },
+    "n5":{
+        "bbox":[-349.43323,-267.43954,-52.49498,355.27078,263.32803,58.00494],
+        "material":"mat9",
+        "mesh":"m5" 
+    },
+    "n6":{
+        "bbox":[-353.51691,-266.34760,-58.12336,365.84109,261.44073,64.15714],
+        "material":"mat10",
+        "mesh":"m6" 
+    },
+    "n7":{
+        "bbox":[-357.61026,-266.41364,-50.04388,369.08969,262.96121,64.78069],
+        "material":"mat11",
+        "mesh":"m7" 
+    }
+  },
+  "billboards":{
+
+  }
+}
+}

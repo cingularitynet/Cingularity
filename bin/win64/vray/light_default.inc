@@ -1,0 +1,35 @@
+LightDome _lightDefault {
+  enabled=1;
+  transform=Transform(Matrix(Vector(1, 0, 0), Vector(0, 1, 0), Vector(0, 0, 1)), Vector(0.3485499918460846, 0.05021420121192932, 0));
+  color=Color(1, 1, 1);
+  shadows=1;
+  shadowColor=Color(0, 0, 0);
+  shadowBias=0.01;
+  photonSubdivs=500;
+  causticSubdivs=1000;
+  diffuseMult=1;
+  causticMult=1;
+  cutoffThreshold=0.001;
+  affectDiffuse=1;
+  affectSpecular=1;
+  bumped_below_surface_check=0;
+  nsamples=0;
+  diffuse_contribution=1;
+  specular_contribution=1;
+  use_global_light_level=1;
+  units=0;
+  intensity=1;
+  subdivs=8;
+  storeWithIrradianceMap=0;
+  invisible=0;
+  affectReflections=1;
+  objectID=0;
+  use_dome_tex=0;
+  tex_resolution=512;
+  dome_targetRadius=100;
+  dome_emitRadius=150;
+  dome_spherical=1;
+  tex_adaptive=1;
+  dome_rayDistance=100000;
+  dome_rayDistanceMode=0;
+}

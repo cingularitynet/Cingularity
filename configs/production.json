@@ -1,0 +1,36 @@
+{
+  "host"                 : "localhost",
+  "env"                  : "production",
+  "port"                 : "8081",
+
+  "imageFormat"          : "tif",
+  "deleteIfError"        : true,
+  "deleteAlways"         : true,
+
+  "awsS3AccessKeyId"     : "AKIAIDJANABQLHVWX5DQ",
+  "awsS3SecretAccessKey" : "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",
+  "awsS3Region"          : "us-west-2",
+  "awsS3Bucket"          : "com.modelo.rendering.prod",
+  "awsS3EndPoint"        : "s3-us-west-2.amazonaws.com",
+
+  "amqpURI"              : "amqp://guest:guest@ip-172-31-30-179.us-west-2.compute.internal:5672/%2F",
+  "sentryDSN"            : "https://6005ed85a3fb4986aa0717348f9e9f22:2ab6b21d4fd64a41b1bd60e7d8cadc0e@sentry.modelo.io/8",
+  
+  "maxNumSlaves"         : 8,
+  
+  "emailAddress"         : "248500947@qq.com",
+  "emailList"            : ["blifelee81@msn.com"],
+  "SMTPSetting"          : { "host":"smtp.qq.com",
+                             "secureConnection":true,
+                             "port":465,
+                             "auth":{
+                                       "user":"248500947@qq.com",
+                                       "pass":"acleixotnmxqbifh"
+                                    }
+                           },
+   "mailOptions"         : { "from":"Modelo Render Server <248500947@qq.com>",
+                             "to":"xxxx@qq.com",
+                             "subject":"Renderer Error",
+                             "html":"<b>Hello world!</b>"
+                           }
+}
